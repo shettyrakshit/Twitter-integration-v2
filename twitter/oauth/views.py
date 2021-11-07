@@ -21,8 +21,8 @@ class SocialConnect:
 class TwitterConnect(SocialConnect):
     """
     """
-    consumer_key = 'YdKYMEusV2Tk7ULWdQPTPgFuS'
-    consumer_secret = 'o7ks8tI0V2Je9tkGxJUPcPdJ6NjyKk7ZldqTsfnQjPbEXbbUWo'
+    consumer_key = '<consumer_key>'
+    consumer_secret = '<consumer_secret>'
     oauth_access_url = 'https://api.twitter.com/oauth/access_token'
     profile_url = 'https://api.twitter.com/1.1/users/'\
         'show.json?user_id={user_id}'
